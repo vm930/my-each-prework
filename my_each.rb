@@ -4,6 +4,6 @@ def my_each(collection) # put argument(s) here
   while i < collection.length 
   yield(collection[i])
   i = i + 1
-  colection.each { |word| puts "#{word}" }
+  collection.each { |word| puts "#{word}" }
   end
 end
